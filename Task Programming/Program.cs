@@ -6,7 +6,8 @@ internal static class Program
     {
         // CreationStart cs = new CreationStart();
         // Cancelling c = new Cancelling();
-        CompositeCancellationTokens cct = new CompositeCancellationTokens();
+        // CompositeCancellationTokens cct = new CompositeCancellationTokens();
+        WaitingOnTime w = new WaitingOnTime();
 
         Console.WriteLine("Main program done.");
         Console.ReadKey();
