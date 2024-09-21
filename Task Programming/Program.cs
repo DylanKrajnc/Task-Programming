@@ -8,7 +8,8 @@ internal static class Program
         // Cancelling c = new Cancelling();
         // CompositeCancellationTokens cct = new CompositeCancellationTokens();
         // WaitingOnTime wTime = new WaitingOnTime();
-        WaitingOnTasks wTasks = new WaitingOnTasks();
+        // WaitingOnTasks wTasks = new WaitingOnTasks();
+        HandlingTaskExceptions h = new HandlingTaskExceptions();
 
         Console.WriteLine("Main program done.");
         Console.ReadKey();
